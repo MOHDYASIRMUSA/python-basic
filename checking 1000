@@ -1,0 +1,9 @@
+a=int(input("enter no. you want to check"))
+if a<=100:
+  print("within 100")
+elif a<=1000:
+  print("within 1000")
+elif a<=2000:
+  print("within 2000")
+else:
+  print("invalid input")
