@@ -1,0 +1,5 @@
+a,b,c,d,e=3,10,56,43,76
+l=[a,b,c,d,e]
+print("largest no. is",max(a,b,c,d,e))
+l.sort()
+print("second largest is",l[-2])
